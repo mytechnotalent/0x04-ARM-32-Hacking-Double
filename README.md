@@ -73,6 +73,7 @@ q
 ```
 
 ## STEP 12: Run Radare2 - Debug Step 3 [Hack double]
+REMEMBER LITTLE ENDIAN!
 ```
 [0x0043f510]> w \x71\x7c\xc9\xd3 @0x0043f538
 ```
