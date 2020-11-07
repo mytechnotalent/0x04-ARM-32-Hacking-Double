@@ -84,13 +84,6 @@ REMEMBER LITTLE ENDIAN!
 0x0043f538 = 0xd3c97c71
 ```
 
-## STEP 13: Run Radare2 - Debug Step 4 [Review Hack]
-```
-[0x0046550c]> pd 2 @ 0x00465512
-│           0x00465512      4df20a73       movw r3, 0xd70a
-│           0x00465516      c4f22713       movt r3, 0x4127
-```
-
 ## STEP 14: Run Radare2 - Debug Step 5 [Hack Binary Permanently]
 ```
 q
