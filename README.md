@@ -63,7 +63,7 @@ aaa
 s main
 vv
 ```
-![image]()
+![image](https://github.com/mytechnotalent/0x04_arm_32_hacking_double/blob/main/1.png?raw=true)
 
 ## STEP 11: Run Radare2 - Debug Step 2 [Examine LSB & MSB @0x004xx538]
 ```
@@ -92,7 +92,7 @@ r2 -w ./0x04_arm_32_hacking_double
 [0x00000400]> s main
 [0x00000510]> vv
 ```
-![image]()
+![image](https://github.com/mytechnotalent/0x04_arm_32_hacking_double/blob/main/2.png?raw=true)
 ```
 [0x00000510]> w \x71\x7c\xc9\xd3 @0x00000538
 q
